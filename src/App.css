@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+body {
+  background-image: url('/public/1.jpg');
+  background-color: #cccccc;
+ }
+ .register-button {  
+  border: 6px solid transparent;
+  border-image: linear-gradient(to right, #0865F1 0%, #C704F6 100%);
+  border-image-slice: 1;
+
+  background: #fff;
+  color: #000;
+  /* font-size: 2em; */
+  padding: 10px 40px;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.register-button:hover {
+  background-color: white;
+  background: linear-gradient(to right, #0865F1, #C704F6);
+  color: #fff;
+}
+#userlist{
+  color: whitesmoke;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  font-family: auto;
+}
+a {
+  text-decoration: none;
+}
+div#user {
+  color: whitesmoke;
+  font-family: auto;
+}
+
